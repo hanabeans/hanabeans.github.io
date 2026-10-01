@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang = "ja">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トロピカル・リンゴべさ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/hinakko_red.png">
+  </head>
+  <body>
+    <header class = "header" id = "top">
+      <a href="index.html"><h2>トロピカル・リンゴべさ</h2></a>
+      <div class = "header-right">
+        <a href="besa.html"><img src="assets/hinakko_red.png" height = 40 class="icon"></a>
+      </div>
+    </header>
+
+    <nav class = "navbar" id = "starnavi">
+      <!-- mfw i have to convert the navbar to lists and somehow keep haborgir working -->
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="fushirabo.html">Fun Stuff</a></li>
+        <!-- <li><a href=#contact>SNS & Contact</a></li> -->
+        <li class="down">
+          <a href=#besa class="downbtn">Miscellaneous</a>
+          <div class="down-content">
+            <a href="https://drive.google.com/drive/folders/1NZN-CVIqtdAv5iiQco4xDPMc1nEOQbXz">iPod Guide</a>
+            <a href="besa.html">Besa?</a>
+            <a href="guruguru.html">ぐるぐる</a>
+          </div>
+        </li>
+        <li class="haborgir" onclick="expandNavi()"><a href="javascript:void(0);"><i class="fa fa-bars"></i></a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class = "top">
+        <noscript><h3 class = "warning">JavaScript must be enabled for the hamburger menu to function (if you have it). Sorry about that!</h3><br></noscript>
+        <h2 style = "color: #d1342c;"><em>・NEW! Try looking what's in the Fun Stuff menu!・</em></h2><br>
+        <!-- <p><em>(and also probably enable audio autoplay first...)</em></p><br> -->
+        <img src="assets/01hin.png" width = 48>
+        <img src="assets/01tsu.png" width = 48>
+        <img src="assets/01roc.png" width = 48>
+        <h2>Did you know that...</h2>
+        <h1>Hinata is a good apple?</h1>
+        <p>(besa)</p><br>
+        <h3>Hello! I am some Million Live P around the internet, I guess.</h3>
+        <p>Maybe one day I'll actually bother learning CSS and how to make this a proper looking (and functioning) website.</p><br>
+        <h3>In the meantime...</h3><br>
+      </section>
+
+      <section class = "card" id = tantous>
+        <h1>・Tantous・</h1>
+        <div class="wrapper">
+          <a href="besa.html"><section class="hinata">
+            <img src="assets/hinakko.png" height = 80>
+            <h2>Hinata</h2>
+            </ul>
+          </section></a>
+          <a href="basa.html"><section class="tsubasa">
+            <img src="assets/tsubatti.png" height = 80>
+            <h2>Tsubasa</h2>
+          </section></a>
+          <a href="roconize.html"><section class="roco">
+            <img src="assets/rococo.png" height = 80>
+            <h2>Roco</h2>
+          </section></a>
+        </div>
+      </section><br>
+      
+      <section class = "card-ipod" id = ipod>
+        <a href="https://drive.google.com/drive/folders/1NZN-CVIqtdAv5iiQco4xDPMc1nEOQbXz"><h1>Looking for the iPod guide?</h1></a>
+        <div class = "ipod-icon">
+          <a href="https://drive.google.com/drive/folders/1NZN-CVIqtdAv5iiQco4xDPMc1nEOQbXz"><img src="assets/poster.png" width = "100"></a>
+        </div>
+      </section><br>
+
+      <section class = "card" id = misc>
+        <h1>・SNS & Contact・</h1>
+        <ul class = "sns">
+          <li><a href="https://twitter.com/menkoiringobesa"><h2>Twitter</h2></a></li>
+          <li><a href="https://bsky.app/profile/torobesa1728.bsky.social"><h2>Bluesky</h2></a></li>
+          <li><a href="https://www.pixiv.net/users/84451739"><h2>Pixiv</h2></a></li>
+          <li><a href="https://www.youtube.com/channel/UCbfkD1ByzwDBar9rGVhXu7w"><h2>YouTube</h2></a></li>
+          <li><a href="https://live-theater.net/@chronosl3"><h2>Misskey (LTN)</h2></a></li>
+        </ul>
+        <h2 class = "thin">Email? → high_touch841@jellypopbea.nz (Business inquiries only)</h2>
+      </section><br>
+
+      <section class = "card" id = fushirabo>
+        <h1>・Fun Stuff・</h1>
+        <img src="assets/tsubasa_zzz.png" width = 100>
+        <h2><i>To be added...</i></h2>
+      </section><br>
+    </main>
+
+    <footer class="footer">
+        <img src="assets/pineapplelemon_black.png" width = 120><br>
+        <h3>・とろべさP 2026-09-24・</h3>
+        <p>Press H for a <a href="https://www.youtube.com/watch?v=na_hb7Ogs-A">mysterious</a> surprise!</p>
+        <a href="#top">Back to Top</a>
+    </footer>
+
+    <script src="haborgir.js"></script>
+  </body>
+</html>

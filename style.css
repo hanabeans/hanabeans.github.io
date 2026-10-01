@@ -369,7 +369,7 @@ main{
     height: 400vw;
     top: -100vw;
     left: -400vw;
-    opacity: 0.75;
+    opacity: 0.5;
     position: absolute;
     background: url("assets/ringohime_pat.png");
     background-size: 5vw;
@@ -381,35 +381,11 @@ main{
     height: 400vw;
     top: -100vw;
     left: -400vw;
-    opacity: 0.5;
+    opacity: 0.35;
     position: absolute;
     background: url("assets/ringohime_pat_b.png");
     background-size: 5vw;
     animation: himescroll 5s infinite linear;
-}
-
-.torohime_b_top_test {
-    width: 800vw;
-    height: 400vw;
-    top: -100vw;
-    left: -400vw;
-    opacity: 0.35;
-    position: absolute;
-    background: url("assets/ringohime_pat_b_top.png");
-    background-size: 5vw;
-    animation: himescroll 5.2s infinite linear;
-}
-
-.torohime_b_low_test {
-    width: 800vw;
-    height: 400vw;
-    top: -100vw;
-    left: -400vw;
-    opacity: 0.35;
-    position: absolute;
-    background: url("assets/ringohime_pat_b_low.png");
-    background-size: 5vw;
-    animation: himescroll 3.9s infinite linear;
 }
 
 @keyframes himescroll{
@@ -514,82 +490,4 @@ main{
 .icon:hover{
     transform: rotate(-10deg);
     transition: 0.2s ease;
-}
-
-.parallaxthingy{
-    position: relative;
-    height: 50vh;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    view-timeline-name: --torohimescroll;
-    view-timeline-axis: block;
-}
-
-.parallaxtorohime{
-    position: absolute;
-    inset: 0;
-    background-image: url("assets/ringohime_pat_b25.png");
-    background-size: cover;
-    background-position: center 0;
-    animation-timeline: --torohimescroll;
-    animation: rotate-both;
-    animation-range: contain;
-}
-
-@keyframes torohimescroll{
-    from{
-        background-position: center 100%;
-    }
-    to{
-        background-position: center 0;
-    }
-}
-
-.mmmm{
-    margin-left: none;
-    margin-right: none;
-    padding: none;
-}
-
-.mewheniforgettosetmarginsmmmmmmmmmmm{
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 50px;
-}
-
-.skysurvivecountdownheartbeat, .skysurvivedanchigaihaadoni, .hyakuten{
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.skysurvivecountdownheartbeat{
-    background-image: url("assets/stoicsaba01.png");
-}
-
-.skysurvivedanchigaihaadoni{
-    background-image: url("assets/stoicsaba02.png");
-}
-
-.hyakuten{
-    background-image: url("assets/hyakuten.png");
-}
-
-.skysurvivecountdownheartbeat p, .skysurvivedanchigaihaadoni p{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    font-size: 28px;
-}
-
-.hyakuten .container{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.hyakuten h2, .hyakuten p{
-    color: #fff;
 }

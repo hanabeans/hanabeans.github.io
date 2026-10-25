@@ -4,6 +4,7 @@
     padding: 0;
     cursor: url("assets/idnunoman.cur"), default;
     font-family: Hiragino Sans, Arial, sans-serif;
+    letter-spacing: -3%;
 }
 
 /* For Main Pages */

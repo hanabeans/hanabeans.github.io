@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "ja">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>michiko-iPodGuide</title>
+    <link rel = "stylesheet" href = "style.css" >
+    <link rel="icon" href="/assets/rococo_yellow.png"> 
+  </head>
+  <body>
+    <header class = "header" id = "top">
+      <a href="index.html"><h2>michiko-iPod Guide</h2></a>
+      <div class = "header-right">
+        <a href="rococo.html"><img src="/assets/rococo_white.png" height = 40 class="icon"></a>
+      </div>
+    </header>
+
+    <nav class = "navbar" id = "starnavi">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li class="down">
+          <a href=#besa class="downbtn">iPod Pages</a>
+          <div class="down-content">
+            <a href="classic_index.html" class = "classic">iPod classic</a>
+            <a href="mini_index.html" class = "mini">iPod mini</a>
+            <a href="nano_index.html" class = "nano">iPod nano</a>
+            <a href="touch_index.html" class = "iptouch">iPod touch</a>
+            <a href="shuffle_index.html" class = "shuffle">iPod shuffle</a>
+          </div>
+        </li>
+        <li class="haborgir" onclick="expandNavi()"><i class="fa fa-bars"></i></li>
+        <li><a href="getting_started_index.html" class = "gstart">Quick Start</a></li>
+        <li><a href="parts_index.html" class = "parts">Modding Info</a></li>
+        <li><a href="faq_index.html" class = "faqthis">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class = "top" style = "padding-top: 10vh;">
+        <noscript><h3 class = "warning">JavaScript must be enabled for the hamburger menu to function (if you have it). Sorry about that!</h3><br></noscript>
+        <h1 style = "font-size: 2.8rem; background: linear-gradient(to right, #d1c327, #c54972, #2db0b2, #2db0b2, #2db0b2, #1a6465); background-clip: text; color: transparent;">Welcome!</h1><br>
+        <p>
+          This... would be the new web version of michiko-iPodGuide <em>would</em> go if I actually finished it...<br>
+          There aren't any actual pages hosted here for now, although this is... roughly what the final product might look like?<br><br>
+          In the meantime, you should probably go check <a href="https://drive.google.com/drive/folders/1NZN-CVIqtdAv5iiQco4xDPMc1nEOQbXz">the PDF variant</a> if you (somehow) actually want to see some iPod info... Sorry about that!
+        </p><br>
+      </section>
+    </main>
+    
+    <footer class="footer">
+      <p style = "font-size: 14px; line-height: 2; opacity: 0.65;">・release whuh,.....?・</p>
+      <img src="/assets/pineapplelemon_black.png" width = 120><br>
+      <h3>・とろべさP 2026-10-25・</h3>
+      <p style = "font-size: 12px;"><a href="https://drive.google.com/drive/folders/1NZN-CVIqtdAv5iiQco4xDPMc1nEOQbXz">Looking for the iPod guide in PDF form?</a></p>
+      <a href="#top">Back to Top</a>
+    </footer>
+
+    <script src="/haborgir.js"></script>
+  </body>
+</html>
